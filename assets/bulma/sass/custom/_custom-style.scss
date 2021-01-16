@@ -1,0 +1,16 @@
+// Home Page Styling
+.bg-hero-home {
+    background: url("../../images/home/bg-hero-home.png") no-repeat top / cover;
+}
+
+.no-border {
+    border: none; 
+    outline: none !important;
+    border-bottom: 1px solid #354739;
+
+    &:focus, &:active {
+        outline: none !important;
+        outline-width: 0;
+    }
+}
+// End Home Page Styling
