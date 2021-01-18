@@ -1,8 +1,8 @@
-<footer class="footer pb-6">
+<footer class="footer pb-6 has-background-primary">
     <div class="container">
         <div class="columns is-mobile is-vcentered">
             <div class="column">
-                <p>
+                <p class="has-text-white">
                     Copyright &copy;
                     <span id="copyright">
                         <script>
@@ -20,7 +20,7 @@
                                 <img src="https://cdn.countryflags.com/thumbs/indonesia/flag-button-round-250.png">
                             </figure>
                         </div>
-                        <div class="column py-0"><span>Indonesia</span></div>
+                        <div class="column py-0"><span class="has-text-white">Indonesia</span></div>
                     </div>
                 </div>
             </div>
@@ -29,31 +29,31 @@
         <div class="columns is-mobile is-vcentered">
             <div class="column">
                 <p>
-                    <a href="#" class="has-text-primary mr-1">Terms of Use</a>
-                    <a href="#" class="has-text-primary mr-1">Privacy Policy</a>
-                    <a href="#" class="has-text-primary mr-1">FAQ</a>
-                    <a href="#" class="has-text-primary">Feedback</a>
+                    <a href="#" class="has-text-white mr-1">Terms of Use</a>
+                    <a href="#" class="has-text-white mr-1">Privacy Policy</a>
+                    <a href="#" class="has-text-white mr-1">FAQ</a>
+                    <a href="#" class="has-text-white">Feedback</a>
                 </p>
             </div>
             <div class="column">
                 <div class="is-pulled-right">
                     <p>
-                        <a href="#" class="has-text-primary mr-1">
+                        <a href="#" class="has-text-white mr-1">
                             <span class="icon">
                                 <i class="fab fa-instagram"></i>
                             </span>
                         </a>
-                        <a href="#" class="has-text-primary mr-1">
+                        <a href="#" class="has-text-white mr-1">
                             <span class="icon">
                                 <i class="fab fa-whatsapp"></i>
                             </span>
                         </a>
-                        <a href="#" class="has-text-primary mr-1">
+                        <a href="#" class="has-text-white mr-1">
                             <span class="icon">
                                 <i class="fab fa-twitter"></i>
                             </span>
                         </a>
-                        <a href="#" class="has-text-primary">
+                        <a href="#" class="has-text-white">
                             <span class="icon">
                                 <i class="fab fa-facebook-f"></i>
                             </span>

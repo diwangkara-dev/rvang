@@ -1,16 +1,52 @@
-// Home Page Styling
-.bg-hero-home {
-    background: url("../../images/home/bg-hero-home.png") no-repeat top / cover;
+.bg-hero {
+    &-home {
+        background: url("../../images/home/bg-hero-home.png") no-repeat top / cover;
+    }
+    &-live-plant {
+        background: url("../../images/live-plant/bg-hero-live-plant.png") no-repeat top / cover;
+    }
 }
 
-.no-border {
+.input-subscription {
+    max-width: 100%;
+    width: 100%;
     border: none; 
+    border-radius: none !important;
     outline: none !important;
-    border-bottom: 1px solid #354739;
+    background: none;
+    border-bottom: 1px solid #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-bottom: calc(0.5em - 1px);
+    padding-left: calc(0.75em - 1px);
+    padding-right: calc(0.75em - 1px);
+    padding-top: calc(0.5em - 1px);
+    position: relative;
+    vertical-align: top;
 
     &:focus, &:active {
         outline: none !important;
         outline-width: 0;
     }
 }
-// End Home Page Styling
+
+.br {
+    &-1 {
+        border-radius: 0.25rem;
+    }
+    &-2 {
+        border-radius: 0.5rem;
+    }
+    &-3 {
+        border-radius: 0.75rem;
+    }
+    &-4 {
+        border-radius: 1rem;
+    }
+    &-5 {
+        border-radius: 1.5rem;
+    }
+    &-6 {
+        border-radius: 6rem;
+    }
+}

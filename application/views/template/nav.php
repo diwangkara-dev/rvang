@@ -1,6 +1,8 @@
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-        <img src="<?= base_url('assets/images/logo.png') ?>" class="ml-6">
+        <a href="<?= base_url(); ?>">
+            <img src="<?= base_url('assets/images/logo.png') ?>" class="ml-6">
+        </a>
 
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarTop">
@@ -24,7 +26,7 @@
                             </div>
                             <div class="column">
                                 <h1 class="title is-6 is-mega-menu-title">Plants</h1>
-                                <a class="navbar-item" href="#">
+                                <a class="navbar-item" href="<?= base_url('welcome/live_plant'); ?>">
                                     <div class="navbar-content">
                                         <p>Live Plants</p>
                                     </div>

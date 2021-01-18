@@ -219,7 +219,7 @@
         <div class="columns is-vcentered is-centered">
             <div class="column is-5">
                 <figure class="image is-square">
-                    <img src="<?= base_url('assets/images/home/cactus.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/home/cactus.png'); ?>">
                 </figure>
             </div>
             <div class="column is-5">
@@ -230,25 +230,6 @@
                 <a href="#" class="button is-primary has-text-weight-medium is-medium">
                     See More
                 </a>
-            </div>
-        </div>
-        <hr>
-    </div>
-</section>
-<section class="section mb-6">
-    <div class="container">
-        <div class="columns is-centered">
-            <div class="column is-5">
-                <p class="title is-3 has-text-centered is-family-secondary has-text-primary">Article</p>
-                <p class="title is-3 has-text-centered is-family-secondary has-text-primary">To Get In Touch</p>
-                <div class="field mb-4">
-                    <div class="control">
-                        <input class="input has-text-centered no-border" type="text" placeholder="Enter Your Email Here...">
-                    </div>
-                </div>
-                <p class="field has-text-centered">
-                    <button class="button is-primary has-text-weight-medium is-medium">Subscribe</button>
-                </p>
             </div>
         </div>
     </div>

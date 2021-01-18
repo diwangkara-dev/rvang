@@ -1,13 +1,5 @@
 /*! bulma.io v0.9.1 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
-@-webkit-keyframes spinAround {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
 @keyframes spinAround {
   from {
     transform: rotate(0deg);
@@ -130,8 +122,7 @@
 }
 
 .button.is-loading::after, .loader, .select.is-loading::after, .control.is-loading::after {
-  -webkit-animation: spinAround 500ms infinite linear;
-          animation: spinAround 500ms infinite linear;
+  animation: spinAround 500ms infinite linear;
   border: 2px solid #dbdbdb;
   border-radius: 290486px;
   border-right-color: transparent;
@@ -322,9 +313,7 @@ html {
   overflow-x: hidden;
   overflow-y: scroll;
   text-rendering: optimizeLegibility;
-  -webkit-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-          text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 article,
@@ -383,7 +372,7 @@ code {
 }
 
 hr {
-  background-color: #344638;
+  background-color: #dbdbdb;
   border: none;
   display: block;
   height: 2px;
@@ -2569,14 +2558,10 @@ fieldset[disabled] .button {
 }
 
 .progress:indeterminate {
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-name: moveIndeterminate;
-          animation-name: moveIndeterminate;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: moveIndeterminate;
+  animation-timing-function: linear;
   background-color: #ededed;
   background-image: linear-gradient(to right, #4a4a4a 30%, #ededed 30%);
   background-position: top left;
@@ -2606,15 +2591,6 @@ fieldset[disabled] .button {
 
 .progress.is-large {
   height: 1.5rem;
-}
-
-@-webkit-keyframes moveIndeterminate {
-  from {
-    background-position: 200% 0;
-  }
-  to {
-    background-position: -200% 0;
-  }
 }
 
 @keyframes moveIndeterminate {
@@ -8730,8 +8706,6 @@ label.panel-block:hover {
   flex-basis: 0;
   flex-grow: 1;
   flex-shrink: 1;
-  min-height: -webkit-min-content;
-  min-height: -moz-min-content;
   min-height: min-content;
 }
 
@@ -11626,18 +11600,227 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   padding: .375rem 1rem;
 }
 
+.has-ribbon {
+  position: relative;
+}
+
+.has-ribbon-left {
+  position: relative;
+}
+
+.has-ribbon-left .ribbon {
+  right: auto;
+  left: 0;
+  border-left: none;
+  border-right: 0.1rem solid #dbdbdb;
+}
+
+.has-ribbon-bottom {
+  position: relative;
+}
+
+.has-ribbon-bottom .ribbon {
+  top: auto;
+  bottom: .5em;
+}
+
+.ribbon {
+  background-color: white;
+  border: 0.1rem solid #dbdbdb;
+  border-right: none;
+  color: #363636;
+  font-size: 1rem;
+  justify-content: center;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  top: .5em;
+  right: 0;
+  font-weight: 400;
+  z-index: 2;
+}
+
+.ribbon.is-white:not(.is-outlined) {
+  background-color: white;
+  border-color: transparent;
+  color: #0a0a0a !important;
+}
+
+.ribbon.is-white.is-outlined {
+  background-color: transparent;
+  border-color: white;
+}
+
+.ribbon.is-black:not(.is-outlined) {
+  background-color: #0a0a0a;
+  border-color: transparent;
+  color: white !important;
+}
+
+.ribbon.is-black.is-outlined {
+  background-color: transparent;
+  border-color: #0a0a0a;
+}
+
+.ribbon.is-light:not(.is-outlined) {
+  background-color: whitesmoke;
+  border-color: transparent;
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.ribbon.is-light.is-outlined {
+  background-color: transparent;
+  border-color: whitesmoke;
+}
+
+.ribbon.is-dark:not(.is-outlined) {
+  background-color: #363636;
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.ribbon.is-dark.is-outlined {
+  background-color: transparent;
+  border-color: #363636;
+}
+
+.ribbon.is-primary:not(.is-outlined) {
+  background-color: #354739;
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.ribbon.is-primary.is-outlined {
+  background-color: transparent;
+  border-color: #354739;
+}
+
+.ribbon.is-link:not(.is-outlined) {
+  background-color: #D39948;
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.ribbon.is-link.is-outlined {
+  background-color: transparent;
+  border-color: #D39948;
+}
+
+.ribbon.is-info:not(.is-outlined) {
+  background-color: #3298dc;
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.ribbon.is-info.is-outlined {
+  background-color: transparent;
+  border-color: #3298dc;
+}
+
+.ribbon.is-success:not(.is-outlined) {
+  background-color: #48c774;
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.ribbon.is-success.is-outlined {
+  background-color: transparent;
+  border-color: #48c774;
+}
+
+.ribbon.is-warning:not(.is-outlined) {
+  background-color: #ffdd57;
+  border-color: transparent;
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.ribbon.is-warning.is-outlined {
+  background-color: transparent;
+  border-color: #ffdd57;
+}
+
+.ribbon.is-danger:not(.is-outlined) {
+  background-color: #f14668;
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.ribbon.is-danger.is-outlined {
+  background-color: transparent;
+  border-color: #f14668;
+}
+
+.ribbon.is-small {
+  font-size: 0.75rem;
+}
+
+.ribbon.is-medium {
+  font-size: 1.25rem;
+}
+
+.ribbon.is-large {
+  font-size: 1.5rem;
+}
+
+.ribbon.is-outlined {
+  background-color: transparent;
+}
+
 .bg-hero-home {
   background: url("../../images/home/bg-hero-home.png") no-repeat top/cover;
 }
 
-.no-border {
-  border: none;
-  outline: none !important;
-  border-bottom: 1px solid #354739;
+.bg-hero-live-plant {
+  background: url("../../images/live-plant/bg-hero-live-plant.png") no-repeat top/cover;
 }
 
-.no-border:focus, .no-border:active {
+.input-subscription {
+  max-width: 100%;
+  width: 100%;
+  border: none;
+  border-radius: none !important;
+  outline: none !important;
+  background: none;
+  border-bottom: 1px solid #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-bottom: calc(0.5em - 1px);
+  padding-left: calc(0.75em - 1px);
+  padding-right: calc(0.75em - 1px);
+  padding-top: calc(0.5em - 1px);
+  position: relative;
+  vertical-align: top;
+}
+
+.input-subscription:focus, .input-subscription:active {
   outline: none !important;
   outline-width: 0;
 }
+
+.br-1 {
+  border-radius: 0.25rem;
+}
+
+.br-2 {
+  border-radius: 0.5rem;
+}
+
+.br-3 {
+  border-radius: 0.75rem;
+}
+
+.br-4 {
+  border-radius: 1rem;
+}
+
+.br-5 {
+  border-radius: 1.5rem;
+}
+
+.br-6 {
+  border-radius: 6rem;
+}
+
 /*# sourceMappingURL=bulma.css.map */
