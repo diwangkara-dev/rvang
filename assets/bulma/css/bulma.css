@@ -11772,6 +11772,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background: url("../../images/home/bg-hero-home.png") no-repeat top/cover;
 }
 
+.bg-hero-about-us {
+  background: url("../../images/about-us/bg-hero-about-us.png") no-repeat top/cover;
+}
+
 .bg-hero-live-plant {
   background: url("../../images/live-plant/bg-hero-live-plant.png") no-repeat top/cover;
 }

@@ -12,6 +12,15 @@ class Welcome extends CI_Controller
 		$this->load->view('template/foot');
 	}
 
+	public function about_us()
+	{
+		$this->load->view('template/head');
+		$this->load->view('template/nav');
+		$this->load->view('about');
+		$this->load->view('template/subscription');
+		$this->load->view('template/foot');
+	}
+
 	public function live_plant()
 	{
 		$this->load->view('template/head');

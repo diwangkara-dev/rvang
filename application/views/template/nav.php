@@ -85,7 +85,7 @@
                 Blog
             </a>
 
-            <a class="navbar-item">
+            <a class="navbar-item" href="<?= base_url('welcome/about_us'); ?>">
                 About Us
             </a>
         </div>
