@@ -22,7 +22,7 @@
                     <div class="container is-fluid">
                         <div class="columns is-centered">
                             <div class="column">
-                                <img src="https://bulma.io/images/placeholders/128x128.png" width="250">
+                                <img src="<?= base_url('assets/images/nav/image.png'); ?>" width="250">
                             </div>
                             <div class="column">
                                 <h1 class="title is-6 is-mega-menu-title">Plants</h1>
@@ -41,40 +41,29 @@
                                         <p>Best Sellers</p>
                                     </div>
                                 </a>
-                                <a class="navbar-item" href="#">
-                                    <div class="navbar-content">
-                                        <p>Pots & Accessories</p>
-                                    </div>
-                                </a>
                             </div>
                             <div class="column">
                                 <h1 class="title is-6 is-mega-menu-title">Interior Product</h1>
                                 <a class="navbar-item" href="#">
                                     <div class="navbar-content">
-                                        <p>Live Plants</p>
+                                        <p>Pot</p>
                                     </div>
                                 </a>
                                 <a class="navbar-item" href="#">
                                     <div class="navbar-content">
-                                        <p>New Arrivals</p>
+                                        <p>Desk</p>
                                     </div>
                                 </a>
                                 <a class="navbar-item" href="#">
                                     <div class="navbar-content">
-                                        <p>Best Sellers</p>
+                                        <p>Light</p>
                                     </div>
                                 </a>
-                            </div>
-                            <div class="column">
-                                <h1 class="title is-6 is-mega-menu-title">Plant Care &amp; Community</h1>
                                 <a class="navbar-item" href="#">
                                     <div class="navbar-content">
-                                        <p>Blog &amp; Resources</p>
+                                        <p>Mirror</p>
                                     </div>
                                 </a>
-                            </div>
-                            <div class="column">
-                                <h1 class="title is-6 is-mega-menu-title">Shop All</h1>
                             </div>
                         </div>
                     </div>
