@@ -4,7 +4,7 @@
             <div class="columns">
                 <div class="column">
                     <p>Account</p>
-                    <p class="title is-2 is-family-secondary has-text-primary">Log in to your account</p>
+                    <p class="title is-2 mt-5 is-family-secondary has-text-primary">Log in to your account</p>
                     <p>
                         Don't have an account?
                         <a href="<?= base_url('welcome/sign_up'); ?>" class="has-text-primary has-text-weight-bold">

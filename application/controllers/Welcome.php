@@ -65,4 +65,13 @@ class Welcome extends CI_Controller
 		$this->load->view('template/subscription');
 		$this->load->view('template/foot');
 	}
+
+	public function sign_up()
+	{
+		$this->load->view('template/head');
+		$this->load->view('template/nav');
+		$this->load->view('sign_up');
+		$this->load->view('template/subscription');
+		$this->load->view('template/foot');
+	}
 }
