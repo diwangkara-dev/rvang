@@ -1,13 +1,12 @@
-<section class="hero is-fullheight bg-hero-live-plant">
-    <div class="hero-body">
-        <div class="container">
-            <h1 class="title is-family-secondary is-1 has-text-white">
-                Live Plants
-            </h1>
-            <h2 class="subtitle has-text-weight-medium has-text-white">
-                Sukulen, Pilea, Haworthia, Cactus
-            </h2>
-        </div>
+<section class="section pb-0 px-0 mb-0">
+    <div class="slick-carousel" id="live-plant-hero">
+        <img src="<?= base_url('assets/images/live-plant/bg-hero-live-plant.png'); ?>" alt="Placeholder image">
+
+        <img src="<?= base_url('assets/images/live-plant/bg-hero-live-plant.png'); ?>" alt="Placeholder image">
+
+        <img src="<?= base_url('assets/images/live-plant/bg-hero-live-plant.png'); ?>" alt="Placeholder image">
+
+        <img src="<?= base_url('assets/images/live-plant/bg-hero-live-plant.png'); ?>" alt="Placeholder image">
     </div>
 </section>
 <section class="section has-background-grey-lighter">
@@ -19,7 +18,7 @@
                 </p>
             </div>
             <div class="column is-2">
-                <div class="dropdown is-right">
+                <div class="dropdown">
                     <div class="dropdown-trigger">
                         <a class="is-size-5 has-text-primary" aria-haspopup="true" aria-controls="dropdown-menu">
                             <span>
@@ -96,7 +95,7 @@
                 </div>
             </div>
             <div class="column is-2">
-                <div class="dropdown is-right">
+                <div class="dropdown">
                     <div class="dropdown-trigger">
                         <a class="is-size-5 has-text-primary" aria-haspopup="true" aria-controls="dropdown-menu">
                             <span>
@@ -186,7 +185,7 @@
                 </div>
             </div>
             <div class="column is-2">
-                <div class="dropdown is-right">
+                <div class="dropdown">
                     <div class="dropdown-trigger">
                         <a class="is-size-5 has-text-primary" aria-haspopup="true" aria-controls="dropdown-menu">
                             <span>
@@ -246,7 +245,7 @@
         <div class="columns is-multiline">
             <div class="column is-4">
                 <figure class="image is-square">
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-1.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-1.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Sukulen Echeveria
@@ -265,7 +264,7 @@
                             <span>Best Product</span>
                         </span>
                     </div>
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-2.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-2.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Pilea Peperomioidas
@@ -276,7 +275,7 @@
             </div>
             <div class="column is-4">
                 <figure class="image is-square">
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-3.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-3.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Haworthia Fasciata
@@ -295,7 +294,7 @@
                             <span>Best Product</span>
                         </span>
                     </div>
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-4.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-4.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Cactus Mammilaria
@@ -306,7 +305,7 @@
             </div>
             <div class="column is-4">
                 <figure class="image is-square">
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-5.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-5.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Pilea Peperomioidas
@@ -317,7 +316,7 @@
             </div>
             <div class="column is-4">
                 <figure class="image is-square">
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-6.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-6.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Haworthia Varigata
@@ -328,7 +327,7 @@
             </div>
             <div class="column is-4">
                 <figure class="image is-square">
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-7.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-7.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Sukulen Echeveria
@@ -347,7 +346,7 @@
                             <span>Best Product</span>
                         </span>
                     </div>
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-8.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-8.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Pilea Peperomioidas
@@ -358,7 +357,7 @@
             </div>
             <div class="column is-4">
                 <figure class="image is-square">
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-9.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-9.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Haworthia Fasciata
@@ -387,7 +386,7 @@
         <div class="columns is-multiline">
             <div class="column is-4">
                 <figure class="image is-square">
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-1.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-1.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Sukulen Echeveria
@@ -406,7 +405,7 @@
                             <span>Best Product</span>
                         </span>
                     </div>
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-2.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-2.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Pilea Peperomioidas
@@ -417,7 +416,7 @@
             </div>
             <div class="column is-4">
                 <figure class="image is-square">
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-3.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-3.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Haworthia Fasciata
@@ -436,7 +435,7 @@
                             <span>Best Product</span>
                         </span>
                     </div>
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-4.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-4.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Cactus Mammilaria
@@ -447,7 +446,7 @@
             </div>
             <div class="column is-4">
                 <figure class="image is-square">
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-5.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-5.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Pilea Peperomioidas
@@ -458,7 +457,7 @@
             </div>
             <div class="column is-4">
                 <figure class="image is-square">
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-6.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-6.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Haworthia Varigata
@@ -469,7 +468,7 @@
             </div>
             <div class="column is-4">
                 <figure class="image is-square">
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-7.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-7.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Sukulen Echeveria
@@ -488,7 +487,7 @@
                             <span>Best Product</span>
                         </span>
                     </div>
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-8.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-8.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Pilea Peperomioidas
@@ -499,7 +498,7 @@
             </div>
             <div class="column is-4">
                 <figure class="image is-square">
-                    <img class="br-3" src="<?= base_url('assets/images/live-plant/product-9.png'); ?>">
+                    <img class="br-3" src="<?= base_url('assets/images/products/product-9.png'); ?>">
                 </figure>
                 <p class="title is-4 mt-3 mb-2 has-text-primary">
                     Haworthia Fasciata

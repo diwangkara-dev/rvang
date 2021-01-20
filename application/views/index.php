@@ -13,7 +13,7 @@
 <section class="section">
     <div class="container">
         <p class="title is-2 has-text-centered is-family-secondary has-text-primary">Our Best Seller Plants</p>
-        <div class="slick-carousel">
+        <div class="slick-carousel" id="homepage-best-seller">
             <div class="card mx-3 my-5">
                 <div class="card-image">
                     <figure class="image is-4by3">
@@ -115,7 +115,7 @@
 <section class="section">
     <div class="container">
         <p class="title is-2 has-text-centered is-family-secondary has-text-primary">For Your Space</p>
-        <div class="slick-carousel">
+        <div class="slick-carousel" id="homepage-your-space">
             <div class="card mx-3 my-5">
                 <div class="card-image">
                     <figure class="image is-4by3">

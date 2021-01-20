@@ -70,7 +70,7 @@
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script>
     // Carousel Script
-    $('.slick-carousel').slick({
+    $('#homepage-best-seller').slick({
         centerMode: true,
         centerPadding: '40px',
         slidesToShow: 3,
@@ -92,6 +92,51 @@
                     centerMode: true,
                     centerPadding: '40px',
                     slidesToShow: 1
+                }
+            }
+        ]
+    });
+
+    $('#homepage-your-space').slick({
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [{
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+
+    $('#live-plant-hero').slick({
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [{
+                breakpoint: 600,
+                settings: {
+                    arrows: false
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false
                 }
             }
         ]
