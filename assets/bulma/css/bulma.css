@@ -12956,6 +12956,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background: url("../../images/live-plant/bg-hero-live-plant.png") no-repeat top/cover;
 }
 
+.bg-hero-article {
+  background: url("../../images/article/bg-hero-article.png") no-repeat top/cover;
+}
+
 .input-subscription {
   max-width: 100%;
   width: 100%;

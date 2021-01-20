@@ -14,12 +14,12 @@
     <div class="container">
         <div class="columns is-multiline">
             <div class="column is-4">
-                <figure class="image is-square">
+                <figure class="image is-square mb-2">
                     <img src="<?= base_url('assets/images/products/product-1.png'); ?>">
                 </figure>
-                <p class="title is-4 mt-2 mb-0 has-text-primary">
+                <a href="<?= base_url('welcome/article'); ?>" class="title is-4 mb-0 has-text-primary">
                     Tips & Tricks for Caring “Cactus Mammilaria”
-                </p>
+                </a>
                 <p class="mt-2 has-text-justified clamp">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, amet harum minima, aliquam dignissimos nesciunt veritatis blanditiis laborum perferendis explicabo tenetur cumque et repudiandae aspernatur? Ipsa quaerat neque maxime repellat quasi molestias delectus consectetur iusto.
                 </p>
