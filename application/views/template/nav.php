@@ -43,7 +43,7 @@
                                 </a>
                             </div>
                             <div class="column">
-                                <h1 class="title is-6 is-mega-menu-title">Interior Product</h1>
+                                <a href="<?= base_url('welcome/interior_product'); ?>" class="title is-6 is-mega-menu-title">Interior Product</a>
                                 <a class="navbar-item" href="#">
                                     <div class="navbar-content">
                                         <p>Pot</p>

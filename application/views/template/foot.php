@@ -141,6 +141,24 @@
             }
         ]
     });
+
+    $('#interior-product-hero').slick({
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [{
+                breakpoint: 600,
+                settings: {
+                    arrows: false
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false
+                }
+            }
+        ]
+    });
 </script>
 <script>
     document.addEventListener('DOMContentLoaded', () => {
