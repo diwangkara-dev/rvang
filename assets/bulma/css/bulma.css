@@ -12944,6 +12944,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background: url("../../images/home/bg-hero-home.png") no-repeat top/cover;
 }
 
+.bg-hero-blog {
+  background: url("../../images/blog/bg-hero-blog.png") no-repeat top/cover;
+}
+
 .bg-hero-about-us {
   background: url("../../images/about-us/bg-hero-about-us.png") no-repeat top/cover;
 }
@@ -12997,6 +13001,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .br-6 {
   border-radius: 6rem;
+}
+
+.clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=bulma.css.map */
