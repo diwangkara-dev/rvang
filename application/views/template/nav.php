@@ -85,7 +85,7 @@
                     <i class="fas fa-search"></i>
                 </span>
             </a>
-            <a href="#" class="navbar-item">
+            <a href="<?= base_url('welcome/login'); ?>" class="navbar-item">
                 <span class="icon">
                     <i class="fas fa-user"></i>
                 </span>
