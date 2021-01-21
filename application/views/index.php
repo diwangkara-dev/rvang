@@ -29,7 +29,7 @@
                     </div>
 
                     <div class="content">
-                        <a href="#">Go Customize &rarr;</a>
+                        <a href="<?= base_url('welcome/product_detail'); ?>">Go Customize &rarr;</a>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                     </div>
 
                     <div class="content">
-                        <a href="#">Go Customize &rarr;</a>
+                        <a href="<?= base_url('welcome/product_detail'); ?>">Go Customize &rarr;</a>
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@
                     </div>
 
                     <div class="content">
-                        <a href="#">Go Customize &rarr;</a>
+                        <a href="<?= base_url('welcome/product_detail'); ?>">Go Customize &rarr;</a>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                     </div>
 
                     <div class="content">
-                        <a href="#">Go Customize &rarr;</a>
+                        <a href="<?= base_url('welcome/product_detail'); ?>">Go Customize &rarr;</a>
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                     </div>
 
                     <div class="content">
-                        <a href="#">Go Customize &rarr;</a>
+                        <a href="<?= base_url('welcome/product_detail'); ?>">Go Customize &rarr;</a>
                     </div>
                 </div>
             </div>
