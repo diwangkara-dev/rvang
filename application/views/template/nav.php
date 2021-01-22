@@ -80,7 +80,7 @@
         </div>
 
         <div class="navbar-end mr-6">
-            <a class="navbar-item">
+            <a class="navbar-item modal-trigger" data-target="#search-modal">
                 <span class="icon">
                     <i class="fas fa-search"></i>
                 </span>
