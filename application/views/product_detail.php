@@ -2,9 +2,9 @@
     <div class="container">
         <div class="columns">
             <div class="column is-4">
-                <figure class="image is-square mb-3">
+                <div class="slick-carousel" id="product-detail">
                     <img src="<?= base_url('assets/images/products/product-1.png'); ?>" width="150">
-                </figure>
+                </div>
                 <p class="title is-5 mb-3 has-text-primary">
                     Description
                 </p>
