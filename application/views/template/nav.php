@@ -90,7 +90,7 @@
                     <i class="fas fa-user"></i>
                 </span>
             </a>
-            <a href="#" class="navbar-item">
+            <a class="navbar-item modal-trigger" data-target="#cart-modal">
                 <span class="icon">
                     <i class="fas fa-shopping-cart"></i>
                 </span>
