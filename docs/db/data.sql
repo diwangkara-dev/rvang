@@ -14,6 +14,15 @@ CREATE TABLE productCategory
   PRIMARY KEY (categoryId)
 );
 
+CREATE TABLE promotion
+(
+  promotionId INT NOT NULL,
+  tagline VARCHAR(300) NOT NULL,
+  notes VARCHAR(300) NOT NULL,
+  promoCode VARCHAR(300) NOT NULL,
+  PRIMARY KEY (promotionId)
+);
+
 CREATE TABLE user
 (
   userId INT NOT NULL,
@@ -66,16 +75,6 @@ CREATE TABLE checkoutTransaction
   FOREIGN KEY (checkoutId) REFERENCES checkout(checkoutId)
 );
 
-CREATE TABLE promotion
-(
-  promotionId INT NOT NULL,
-  tagline VARCHAR(300) NOT NULL,
-  notes VARCHAR(300) NOT NULL,
-  productId INT NOT NULL,
-  PRIMARY KEY (promotionId),
-  FOREIGN KEY (productId) REFERENCES product(productId)
-);
-
 CREATE TABLE payment
 (
   paymentId INT NOT NULL,
@@ -87,4 +86,13 @@ CREATE TABLE payment
   PRIMARY KEY (paymentId),
   FOREIGN KEY (checkoutId) REFERENCES checkout(checkoutId),
   FOREIGN KEY (userId) REFERENCES user(userId)
+);
+
+CREATE TABLE trPromo
+(
+  trId INT NOT NULL,
+  promotionId INT NOT NULL,
+  productId INT NOT NULL,
+  FOREIGN KEY (promotionId) REFERENCES promotion(promotionId),
+  FOREIGN KEY (productId) REFERENCES product(productId)
 );
