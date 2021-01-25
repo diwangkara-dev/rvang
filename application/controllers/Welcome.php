@@ -9,6 +9,7 @@ class Welcome extends CI_Controller
 		$this->load->view('template/nav');
 		$this->load->view('index');
 		$this->load->view('template/subscription');
+		$this->load->view('template/modal');
 		$this->load->view('template/foot');
 	}
 
@@ -18,6 +19,7 @@ class Welcome extends CI_Controller
 		$this->load->view('template/nav');
 		$this->load->view('about');
 		$this->load->view('template/subscription');
+		$this->load->view('template/modal');
 		$this->load->view('template/foot');
 	}
 
@@ -27,6 +29,7 @@ class Welcome extends CI_Controller
 		$this->load->view('template/nav');
 		$this->load->view('blog');
 		$this->load->view('template/subscription');
+		$this->load->view('template/modal');
 		$this->load->view('template/foot');
 	}
 
@@ -36,6 +39,7 @@ class Welcome extends CI_Controller
 		$this->load->view('template/nav');
 		$this->load->view('live_plant');
 		$this->load->view('template/subscription');
+		$this->load->view('template/modal');
 		$this->load->view('template/foot');
 	}
 
@@ -45,6 +49,7 @@ class Welcome extends CI_Controller
 		$this->load->view('template/nav');
 		$this->load->view('interior_product');
 		$this->load->view('template/subscription');
+		$this->load->view('template/modal');
 		$this->load->view('template/foot');
 	}
 
@@ -54,6 +59,7 @@ class Welcome extends CI_Controller
 		$this->load->view('template/nav');
 		$this->load->view('article');
 		$this->load->view('template/subscription');
+		$this->load->view('template/modal');
 		$this->load->view('template/foot');
 	}
 
@@ -63,6 +69,7 @@ class Welcome extends CI_Controller
 		$this->load->view('template/nav');
 		$this->load->view('login');
 		$this->load->view('template/subscription');
+		$this->load->view('template/modal');
 		$this->load->view('template/foot');
 	}
 
@@ -72,6 +79,7 @@ class Welcome extends CI_Controller
 		$this->load->view('template/nav');
 		$this->load->view('sign_up');
 		$this->load->view('template/subscription');
+		$this->load->view('template/modal');
 		$this->load->view('template/foot');
 	}
 
@@ -81,6 +89,7 @@ class Welcome extends CI_Controller
 		$this->load->view('template/nav');
 		$this->load->view('product_detail');
 		$this->load->view('template/subscription');
+		$this->load->view('template/modal');
 		$this->load->view('template/foot');
 	}
 

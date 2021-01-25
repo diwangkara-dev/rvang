@@ -13014,4 +13014,30 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   overflow: hidden;
 }
 
+.cart-number-plus, .cart-number-minus {
+  width: 34px;
+  height: 34px;
+  border-radius: 4px;
+  padding-bottom: calc(0.5em - 1px);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: calc(0.5em - 1px);
+  border: 1px solid #ddd;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cart-number-input {
+  height: 34px;
+  width: 50px;
+  text-align: center;
+  font-size: 26px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /*# sourceMappingURL=bulma.css.map */

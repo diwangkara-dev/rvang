@@ -16,26 +16,28 @@
     }
 }
 
-.input-subscription {
-    max-width: 100%;
-    width: 100%;
-    border: none; 
-    border-radius: none !important;
-    outline: none !important;
-    background: none;
-    border-bottom: 1px solid #fff;
-    font-size: 1rem;
-    line-height: 1.5;
-    padding-bottom: calc(0.5em - 1px);
-    padding-left: calc(0.75em - 1px);
-    padding-right: calc(0.75em - 1px);
-    padding-top: calc(0.5em - 1px);
-    position: relative;
-    vertical-align: top;
-
-    &:focus, &:active {
+.input{
+    &-subscription {
+        max-width: 100%;
+        width: 100%;
+        border: none; 
+        border-radius: none !important;
         outline: none !important;
-        outline-width: 0;
+        background: none;
+        border-bottom: 1px solid #fff;
+        font-size: 1rem;
+        line-height: 1.5;
+        padding-bottom: calc(0.5em - 1px);
+        padding-left: calc(0.75em - 1px);
+        padding-right: calc(0.75em - 1px);
+        padding-top: calc(0.5em - 1px);
+        position: relative;
+        vertical-align: top;
+
+        &:focus, &:active {
+            outline: none !important;
+            outline-width: 0;
+        }
     }
 }
 
@@ -65,4 +67,34 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 6;
   overflow: hidden;
+}
+
+// Style untuk cart
+.cart-number {
+    &-plus, &-minus {
+        width: 34px;
+        height: 34px;
+        border-radius: 4px;
+        // padding: 4px 8px 4px 8px;        
+        padding-bottom: calc(0.5em - 1px);
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: calc(0.5em - 1px);
+        border: 1px solid #ddd;
+        // display: inline-block;        
+        justify-content: center;
+        vertical-align: middle;
+        text-align: center;
+        cursor: pointer;
+    }
+    &-input {
+        height:34px;
+        width: 50px;
+        text-align: center;
+        font-size: 26px;
+		border:1px solid #ddd;
+		border-radius:4px;
+        display: inline-block;
+        vertical-align: middle;
+    }
 }
