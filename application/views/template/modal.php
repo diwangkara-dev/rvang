@@ -104,7 +104,7 @@
             </div>
             <hr>
             <p class="title is-5 has-text-primary mb-3">Subtotal : 45.000</p>
-            <button class="button is-primary is-fullwidth has-text-weight-medium">Checkout</button>
+            <a href="<?= base_url('welcome/shipping_information'); ?>" class="button is-primary is-fullwidth has-text-weight-medium">Checkout</a>
             <p class="help">Shipping and taxes calculated at checkout.</p>
         </section>
     </div>
