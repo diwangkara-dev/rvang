@@ -100,4 +100,12 @@ class Welcome extends CI_Controller
 		$this->load->view('forgot_password');
 		$this->load->view('template/foot');
 	}
+
+	public function shipping_information()
+	{
+		$this->load->view('template/head');
+		$this->load->view('template/nav');
+		$this->load->view('shipping_information');
+		$this->load->view('template/foot');
+	}
 }
