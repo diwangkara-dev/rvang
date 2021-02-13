@@ -1,1 +1,1 @@
-<a href="<?php echo base_url(base_url('/auth'))?>">Keluar</a>
+<a href="<?php echo base_url('/auth/logout')?>">Keluar</a>
