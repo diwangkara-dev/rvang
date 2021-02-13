@@ -39,9 +39,9 @@ class Auth extends CI_Controller {
             
                 if(password_verify($pass, $cek_login->password)){
                     // if the username and password is a match
-                    $this->session->set_userdata('userId', $cek_login->id);
-                    $this->session->set_userdata('emailx', $cek_login->username);
-                    $this->session->set_userdata('firstName', $cek_login->name);
+                    $this->session->set_userdata('userId', $cek_login->userid);
+                    $this->session->set_userdata('email', $cek_login->email);
+                    $this->session->set_userdata('firstName', $cek_login->firstName);
                     
                     redirect('/dashboard');
                         

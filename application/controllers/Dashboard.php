@@ -12,6 +12,7 @@ class Dashboard extends CI_Controller {
     public function index()
     {
         echo $this->session->userdata('userId');
+        echo $this->session->userdata('firstName');
     }
 
 } 
