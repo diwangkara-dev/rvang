@@ -14,7 +14,7 @@ class Auth extends CI_Controller {
         $this->load->library('form_validation');
         $this->load->library('session');
     
-        $this->form_validation->set_rules('email', 'email', 'trim|required|valid_email|xss_clean]');
+        $this->form_validation->set_rules('email', 'email', 'trim|required|valid_email');
         $this->form_validation->set_rules('password', 'password', 'trim|required');
         
         if ($this->form_validation->run() == FALSE) {
@@ -82,7 +82,7 @@ class Auth extends CI_Controller {
             ];
             $insert = $this->auth_model->register("user", $data);
             if($insert){
-                echo '<script>alert("Sukses! Anda berhasil melakukan register. Silahkan login untuk mengakses data.");window.location.href="'.base_url('index.php/auth/login').'";</script>';
+                echo '<script>alert("Sukses! Anda berhasil melakukan register. Silahkan login untuk mengakses data.");window.location.href="'.base_url('welcome/login').'";</script>';
             }
         }
     }
