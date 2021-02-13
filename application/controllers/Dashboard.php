@@ -11,10 +11,6 @@ class Dashboard extends CI_Controller {
 
     public function index()
     {
-        if($cek_login->roleId != '1'){
-            echo '<script>window.location.href="'.base_url().'";</script>';
-        }
-        
         echo $this->session->userdata('userId');
         echo $this->session->userdata('firstName');
 
