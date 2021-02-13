@@ -78,7 +78,7 @@ class Auth extends CI_Controller {
                 'password' => $pass,
                 'firstName' => $firstName,
                 'lastName' => $lasttName,
-                'role' => "2"
+                'roleId' => "2"
             ];
             $insert = $this->auth_model->register("user", $data);
             if($insert){
