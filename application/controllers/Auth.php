@@ -42,8 +42,13 @@ class Auth extends CI_Controller {
                     $this->session->set_userdata('userId', $cek_login->userId);
                     $this->session->set_userdata('email', $cek_login->email);
                     $this->session->set_userdata('firstName', $cek_login->firstName);
+                    $this->session->set_userdata('role', $cek_login->roleId);
                     
-                    redirect('/dashboard');
+                    if($cek_login->roleId != '1'){
+                        redirect(base_url());
+                    }else{
+                        redirect('/dashboard');
+                    }
                         
                 } else {
                     echo '<script>alert("Username atau Password yang Anda masukan salah.");window.location.href="'.base_url('/welcome/login').'";</script>';
