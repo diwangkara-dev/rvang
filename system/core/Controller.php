@@ -104,7 +104,7 @@ class CI_Controller {
 	{
 		$this->load->library('session');
 		if(empty($this->session->userdata('userId'))){
-			echo '<script>alert("Silahkan login dahulu untuk mengakses data.");window.location.href="'.base_url('/index.php/auth/login').'";</script>';
+			echo '<script>alert("Silahkan login dahulu untuk mengakses data.");window.location.href="'.base_url('/welcome/login').'";</script>';
 		}
 	} 
 

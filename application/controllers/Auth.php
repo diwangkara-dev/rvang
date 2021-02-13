@@ -46,7 +46,7 @@ class Auth extends CI_Controller {
                     redirect('/dashboard');
                         
                 } else {
-                    echo '<script>alert("Username atau Password yang Anda masukan salah.");window.location.href="'.base_url('/index.php/auth/login').'";</script>';
+                    echo '<script>alert("Username atau Password yang Anda masukan salah.");window.location.href="'.base_url('/welcome/login').'";</script>';
                 }
             }
         }
