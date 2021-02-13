@@ -59,7 +59,7 @@ class Auth extends CI_Controller {
     
         $this->form_validation->set_rules('firstName', 'firstName', 'required');
         $this->form_validation->set_rules('lastName', 'lastName', 'required');
-        $this->form_validation->set_rules('email', 'email', 'trim|required|valid_email|xss_clean]');
+        $this->form_validation->set_rules('email', 'email', 'trim|required|valid_email|xss_clean');
         $this->form_validation->set_rules('password', 'password', 'required|trim');
         
         if ($this->form_validation->run() == FALSE) {
