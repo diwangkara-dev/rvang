@@ -7,6 +7,7 @@
                     <p class="title is-2 mt-5 is-family-secondary has-text-primary">Create your account</p>
                     <p>
                         Do you already have an account?
+                        <?php var_dump($this->session->flashdata("errors"))?>
                         <a href="<?= base_url('welcome/login'); ?>" class="has-text-primary has-text-weight-bold">
                             Log In <i class="fas fa-arrow-right"></i>
                         </a>
