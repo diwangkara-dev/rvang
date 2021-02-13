@@ -12,31 +12,33 @@
                         </a>
                     </p>
                 </div>
-                <div class="column">
-                    <div class="field">
-                        <div class="control">
-                            <input type="text" class="input is-medium" placeholder="First Name">
+                <form action="<?php echo base_url('auth/proses_register'); ?>" method="post">
+                    <div class="column">
+                        <div class="field">
+                            <div class="control">
+                                <input type="text" name="firstName" class="input is-medium" placeholder="First Name">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <input type="text" name="lastName" class="input is-medium" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <input type="email" name="email" class="input is-medium" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <input type="password" name="password" class="input is-medium" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <button class="button is-primary is-fullwidth is-medium">Create</button>
                         </div>
                     </div>
-                    <div class="field">
-                        <div class="control">
-                            <input type="text" class="input is-medium" placeholder="Last Name">
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="control">
-                            <input type="email" class="input is-medium" placeholder="Email">
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="control">
-                            <input type="password" class="input is-medium" placeholder="Password">
-                        </div>
-                    </div>
-                    <div class="field">
-                        <button class="button is-primary is-fullwidth is-medium">Create</button>
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>

@@ -12,24 +12,26 @@
                         </a>
                     </p>
                 </div>
-                <div class="column">
-                    <div class="field">
-                        <div class="control">
-                            <input type="email" class="input is-medium" placeholder="Email">
+                <form action="<?php echo base_url('auth/proses_login'); ?>" method="post">
+                    <div class="column">
+                        <div class="field">
+                            <div class="control">
+                                <input type="email" name="email" class="input is-medium" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <input type="password" name="password" class="input is-medium" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <a href="<?= base_url('welcome/forgot_password'); ?>" class="has-text-primary has-text-weight-bold">Forgot your password?</a>
+                        </div>
+                        <div class="field">
+                            <button class="button is-primary is-fullwidth is-medium">Sign In</button>
                         </div>
                     </div>
-                    <div class="field">
-                        <div class="control">
-                            <input type="password" class="input is-medium" placeholder="Password">
-                        </div>
-                    </div>
-                    <div class="field">
-                        <a href="<?= base_url('welcome/forgot_password'); ?>" class="has-text-primary has-text-weight-bold">Forgot your password?</a>
-                    </div>
-                    <div class="field">
-                        <button class="button is-primary is-fullwidth is-medium">Sign In</button>
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>
