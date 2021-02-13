@@ -90,6 +90,6 @@ class Auth extends CI_Controller {
     public function logout()
     {
         $this->session->sess_destroy();
-        echo 'alert("Sukses! Anda berhasil logout."); window.location.href="'.base_url('/welcome/sign_up').'";';
+        echo '<script>alert("Sukses! Anda berhasil logout."); window.location.href="'.base_url('/welcome/login').'";</script>';
     }
 } 
