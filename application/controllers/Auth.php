@@ -70,11 +70,11 @@ class Auth extends CI_Controller {
         } else {
             $firstName = $this->input->post('firstName');
             $lastName = $this->input->post('lastName');
-            $mail = $this->input->post('email');
+            $email = $this->input->post('email');
             $password = $this->input->post('password');
             $pass = password_hash($password, PASSWORD_DEFAULT);
             $data = [
-                'email' => $mail,
+                'email' => $email,
                 'password' => $pass,
                 'firstName' => $firstName,
                 'lastName' => $lasttName,

@@ -27,7 +27,7 @@
                         </div>
                         <div class="field">
                             <div class="control">
-                                <input type="email" name="email" class="input is-medium" placeholder="Email">
+                                <input type="text" name="email" class="input is-medium" placeholder="Email">
                             </div>
                         </div>
                         <div class="field">
