@@ -1,0 +1,1 @@
+<a href="<?php echo base_url(base_url('/welcome/sign_up'))?>">Keluar</a>

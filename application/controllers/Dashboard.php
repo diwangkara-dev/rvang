@@ -13,6 +13,8 @@ class Dashboard extends CI_Controller {
     {
         echo $this->session->userdata('userId');
         echo $this->session->userdata('firstName');
+
+        $this->load->view("dashboard/index");
     }
 
 } 
