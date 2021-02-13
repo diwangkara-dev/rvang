@@ -45,7 +45,7 @@ class Auth extends CI_Controller {
                     $this->session->set_userdata('role', $cek_login->roleId);
                     
                     if($cek_login->roleId != '1'){
-                        redirect(base_url());
+                        echo '<script>window.location.href="'.base_url().'";</script>';
                     }else{
                         redirect('/dashboard');
                     }
