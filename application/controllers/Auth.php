@@ -46,7 +46,7 @@ class Auth extends CI_Controller {
                     
                     if($cek_login->roleId != '1'){
                         echo '<script>alert("Bukan admin'.$cek_login->roleId.'");window.location.href="'.base_url().'";</script>';
-                        redirect('/');
+                        // redirect('/');
                     }else{
                         redirect('/dashboard');
                     }
