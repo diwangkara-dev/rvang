@@ -8,10 +8,20 @@ class Dashboard extends CI_Controller {
         parent::__construct();
         $this->cek_login();
 
+		$this->load->database();
+		$this->load->helper('url');
+
+		$this->load->library('grocery_CRUD');
+
         if($cek_login->roleId != '1'){
             redirect('/');
         }
     }
+
+    public function output_crud($output = null)
+	{
+		$this->load->view('dashboard/index.php',(array)$output);
+	}
 
     public function index()
     {
@@ -21,4 +31,18 @@ class Dashboard extends CI_Controller {
         $this->load->view("dashboard/index");
     }
 
+    public function role()
+    {
+        $crud = new grocery_CRUD();
+
+        $crud->set_theme('datatables');
+        $crud->set_table('role');
+        $crud->set_subject('Roles');
+
+        $crud->required_fields('roleName');
+
+        $output = $crud->render();
+
+        $this->output_crud($output);
+    }
 } 
