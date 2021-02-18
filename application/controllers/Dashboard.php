@@ -9,7 +9,7 @@ class Dashboard extends CI_Controller {
         $this->cek_login();
 
         if($cek_login->roleId != '1'){
-            echo '<script>alert("Bukan admin'.$cek_login->roleId.'");window.location.href="'.base_url().'";</script>';
+            echo '<script>alert("Bukan admin'.$this->cek_login().'");window.location.href="'.base_url().'";</script>';
             // redirect('/');
         }
 
