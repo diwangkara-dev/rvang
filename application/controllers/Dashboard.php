@@ -6,7 +6,7 @@ class Dashboard extends CI_Controller {
     public function __construct()
     {
         parent::__construct();
-        
+
         if($this->session->userdata('role')!='1'){
             // echo '<script>alert("Bukan admin'.$halo.'");window.location.href="'.base_url().'";</script>';
             redirect('/');
@@ -25,10 +25,7 @@ class Dashboard extends CI_Controller {
 
     public function index()
     {
-        echo $this->session->userdata('userId');
-        echo $this->session->userdata('firstName');
-
-        $this->load->view("dashboard/index");
+       $this->output_crud((object)array('output' => '' , 'js_files' => array() , 'css_files' => array()));
     }
 
     public function role()
