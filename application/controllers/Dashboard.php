@@ -6,10 +6,10 @@ class Dashboard extends CI_Controller {
     public function __construct()
     {
         parent::__construct();
-        $this->cek_login();
+        $halo = $this->cek_login();
 
         if($cek_login->roleId != '1'){
-            echo '<script>alert("Bukan admin'.$this->cek_login().'");window.location.href="'.base_url().'";</script>';
+            echo '<script>alert("Bukan admin'.$halo.'");window.location.href="'.base_url().'";</script>';
             // redirect('/');
         }
 
