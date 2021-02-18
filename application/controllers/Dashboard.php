@@ -37,6 +37,22 @@ class Dashboard extends CI_Controller {
         $crud->set_subject('Roles');
 
         $crud->required_fields('roleName');
+        $crud->required_fields('roleId');
+
+        $output = $crud->render();
+
+        $this->output_crud($output);
+    }
+    
+    public function productCategory()
+    {
+        $crud = new grocery_CRUD();
+
+        $crud->set_theme('datatables');
+        $crud->set_table('productCategory');
+        $crud->set_subject('product category');
+
+        $crud->required_fields('categoryName');
 
         $output = $crud->render();
 
