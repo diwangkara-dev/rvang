@@ -53,7 +53,7 @@ class Dashboard extends CI_Controller {
         $crud->set_theme('datatables');
         $crud->set_table('productCategory');
         $crud->set_subject('product category');
-        $crud->columns('categoryName','Notes');
+        $crud->columns('categoryName','notes');
         $crud->display_as('categoryName','Nama Kategori')
             ->display_as('notes','Catatan');
         $crud->required_fields('categoryName');
