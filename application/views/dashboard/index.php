@@ -13,6 +13,7 @@ foreach($css_files as $file): ?>
         <a href="<?php echo base_url('/auth/logout')?>">Keluar</a> | 
 		<a href='<?php echo site_url('dashboard/role')?>'>Role</a> |
         <a href='<?php echo site_url('dashboard/productCategory')?>'>Kategori Produk</a> |
+        <a href='<?php echo site_url('dashboard/product')?>'>Produk</a> |
 		
 	</div>
 	<div style='height:20px;'></div>  

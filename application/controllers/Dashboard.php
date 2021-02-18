@@ -62,4 +62,19 @@ class Dashboard extends CI_Controller {
 
         $this->output_crud($output);
     }
+
+    public function product()
+    {
+        $crud = new grocery_CRUD();
+
+        $crud->set_theme('datatables');
+        $crud->set_table('product');
+        $crud->set_subject('produk');
+        $crud->required_fields('categoryName');
+        $crud->set_relation('categoryId','productCategory','categoryName');
+
+        $output = $crud->render();
+
+        $this->output_crud($output);
+    }
 } 
