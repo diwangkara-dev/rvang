@@ -105,7 +105,8 @@ class CI_Controller {
 		$this->load->library('session');
 		if(empty($this->session->userdata('userId'))){
 			if($this->session->userdata('role')!='1'){
-				redirect('/');
+				echo '<script>alert("Bukan admin");window.location.href="'.base_url().'";</script>';
+				// redirect('/');
 			}else{
 				echo '<script>alert("Silahkan login dahulu untuk mengakses data.");window.location.href="'.base_url('/welcome/login').'";</script>';
 			}

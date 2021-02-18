@@ -8,14 +8,14 @@ class Dashboard extends CI_Controller {
         parent::__construct();
         $this->cek_login();
 
+        if($cek_login->roleId != '1'){
+            redirect('/');
+        }
+
 		$this->load->database();
 		$this->load->helper('url');
 
 		$this->load->library('grocery_CRUD');
-
-        if($cek_login->roleId != '1'){
-            redirect('/');
-        }
     }
 
     public function output_crud($output = null)
