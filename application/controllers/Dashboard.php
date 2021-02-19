@@ -77,4 +77,8 @@ class Dashboard extends CI_Controller {
 
         $this->output_crud($output);
     }
+    public function payment()
+    {
+        $this->output_crud("currently not available");
+    }
 } 
