@@ -1,28 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<?php 
-foreach($css_files as $file): ?>
-	<link type="text/css" rel="stylesheet" href="<?php echo $file; ?>" />
-<?php endforeach; ?>
-</head>
-<body>
-	<div>
-        <a href="<?php echo base_url('/auth/logout')?>">Keluar</a> | 
-		<a href='<?php echo site_url('dashboard/role')?>'>Role</a> |
-        <a href='<?php echo site_url('dashboard/productCategory')?>'>Kategori Produk</a> |
-        <a href='<?php echo site_url('dashboard/product')?>'>Produk</a> |
-        <a href='<?php echo site_url('dashboard/payment')?>'>Pembayaran</a> |
-		
-	</div>
-	<div style='height:20px;'></div>  
-    <div style="padding: 10px">
-		<?php echo $output; ?>
-    </div>
-    <?php foreach($js_files as $file): ?>
-        <script src="<?php echo $file; ?>"></script>
-    <?php endforeach; ?>
-</body>
-</html>
+<section class="section">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis hic, laborum quae eveniet rem provident illum inventore laudantium veniam dolorum numquam voluptas sint architecto dignissimos, aliquam sed eos et. Earum commodi ipsa velit id voluptatem, error nam omnis doloremque, consequatur sed quaerat sapiente, quam qui vel eligendi quo aliquam.
+</section>
