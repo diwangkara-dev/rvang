@@ -21,10 +21,10 @@ class Dashboard extends CI_Controller
 
     public function output_crud($output = null)
     {
-        $this->load->view('template/dashboard/dashboard_head');
+        $this->load->view('template/dashboard/dashboard_head', (array)$output);
         $this->load->view('template/dashboard/dashboard_nav');
         $this->load->view('dashboard/index', (array)$output);
-        $this->load->view('template/dashboard/dashboard_foot');
+        $this->load->view('template/dashboard/dashboard_foot', (array)$output);
     }
 
     public function index()
